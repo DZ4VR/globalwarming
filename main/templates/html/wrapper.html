@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Глобальное потепление</title>
+    {% load staticfiles %}
+    <link rel="shortcut icon" href="{% static 'image/earth' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+    {% block home %}
+
+    {% endblock %}
+    <div class="container-fluid">
+       <hr>
+        <div class="container">&copy;DZ4VR 2018 <a href="https://vk.com/dz4vr" class="text-danger">ВК создателя</a></div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <h4>Использованные материалы</h4>
+    <ul class="list-group">
+        <li class="list-group-item"><a target="_blank" href="https://ru.wikihow.com/%D0%B1%D0%BE%D1%80%D0%BE%D1%82%D1%8C%D1%81%D1%8F-%D1%81-%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC-%D0%BF%D0%BE%D1%82%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC">
+            ВикиХау
+        </a></li>
+        <li class="list-group-item"><a target="_blank" href="https://natworld.info/zhivotnye/zhivotnye-nahodjashhiesja-pod-ugrozoj-ischeznovenija-iz-za-izmenenija-klimata">
+            Как ГП влияет на животных(1)
+        </a></li>
+        <li class="list-group-item"><a target="_blank" href="https://www.agroxxi.ru/zhurnal-agroxxi/fakty-mnenija-kommentarii/5-primerov-kak-globalnoe-poteplenie-vlijaet-na-rastenija-i-zhivotnyh.html">
+            Как ГП влияет на животных(2)
+        </a></li>
+    </ul>
+    </div>
+</body>
+</html>
