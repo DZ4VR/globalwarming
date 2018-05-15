@@ -43,6 +43,7 @@
                     которые живут всего несколько недель весной на только появившихся листьях дубов.
                     <p class="text-danger">Мухоловки стали опаздывать и уже не попадают в это узкое временное окно.
                     </p>
+                    <br>
                     <img class="img-fluid" src={% static 'image/muholovka-pestrushka.jpg'%}>
                 </li>
                 <li class="list-group-item text-center">
@@ -50,6 +51,7 @@
                     В Финляндии, например, чибис и большой кроншнеп обычно вили свои гнезда на полях ячменя после того, как фермеры засеивали поля весной.
                     Но так как значения температуры повысились, теперь птицы все чаще откладывают яйца до того, как фермеры добираются до полей,
                     <p class="text-danger">что означает, что их хорошо укрепленные гнезда подвергаются риску быть разрушенными трактором или другой техникой.</p>
+                    <br>
                     <img class="img-fluid" src={% static 'image/images.jpeg'%} >
                 </li>
                 <li class="list-group-item text-center">
@@ -65,6 +67,7 @@
                     говорит Эрик Пост, профессор экологии Калифорнийского университета в Дэйвисе. Чем раньше появляются арктические растения,
                     <span class="text-danger">тем более крепкими и менее полезными и питательными они становятся к приходу оленей.</span>
                     <p class="text-danger"></p>
+                    <br>
                     <img class="img-fluid" src={% static 'image/severnyi-olen.jpg'%}>
                 </li>
             </ul>
@@ -90,6 +93,7 @@
                     <span class="text-danger">Если изменение климата будет продолжаться нынешними темпами,
                         эксперты предупреждают, что императорский пингвин может потерять 90%
                         нынешней численности к 2100 году, а это приведет к полному исчезновению этих птиц.</span>
+                    <br>
                     <img class="img-fluid" src={% static 'image/imperial.jpg'%}>
                 </li>
                 <li class="list-group-item">
@@ -101,6 +105,7 @@
                     около 100 видов эвкалипта растут очень медленно,
                     а их семена распространяются в довольно узком диапазоне,<span class="text-danger">что
                     не позволяет расширить среду обитания и избежать катастрофы.</span>
+                    <br>
                     <img class="img-fluid" src={% static 'image/koala.jpg'%}>
                 </li>
                 <li class="list-group-item">
@@ -109,6 +114,7 @@
                     повседневная жизни белого медведя становится все более нестабильной
                     <p class="text-danger">По некоторым оценкам, популяции белого медведя в мире,
                         уменьшатся на 70% к 2050 году, если ничего не предпринять, чтобы остановить изменения климата.</p>
+                    <br>
                     <img class="img-fluid" src={% static 'image/bears.jpg'%}>
                 </li>
             </ul>
@@ -216,13 +222,13 @@
     </div>
     <div class="row">
         <div class="col-4">
-            <a title="проголосовать!" href="/good" class="text-success"><h3 class="text-danger text-right" >ХОРОШО?<br>({{ rating.like }} человек(а) решили так)</h3></a>
+            <a title="проголосовать!" href="/good" class="text-success"><h3 class="text-danger text-right" >ХОРОШО?<h6 class="text-center text-danger">({{ rating.like }} человек(а) решили так)</h6></h3></a>
         </div>
         <div class="col-4">
             <p class="text-info text-center">ИЛИ</p>
         </div>
         <div class="col-4">
-            <a title="проголосовать!" href="/bad" class="text-danger"><h3 class="text-success text-left" >ПЛОХО?<br>({{ rating.dislike }} человек(а) решили так)</h3></a>
+            <a title="проголосовать!" href="/bad" class="text-danger"><h3 class="text-success text-left" >ПЛОХО?<h6 class="text-center text-success">({{ rating.dislike }} человек(а) решили так)</h6></h3></a>
         </div>
     </div>
 
